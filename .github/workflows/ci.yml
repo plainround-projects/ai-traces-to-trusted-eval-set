@@ -1,0 +1,25 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    name: Format, lint, types, import rules, offline tests with coverage, dependency audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: make check
+      - run: make audit
+
+  rebuild:
+    name: Rebuild the eval set from the committed traces and compare the manifest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: make rebuild-check
