@@ -1,0 +1,606 @@
+{
+ "entries": {
+  "02cacaa7aaf2683db516ce863868962a5ac3ef35383828a2a8fb0fc69feff38a": {
+   "input_tokens": 147,
+   "output_tokens": 21,
+   "text": "Hola, ¿cuándo llegará el reembolso de mi pedido 4432? Lo devolví hace una semana."
+  },
+  "03f8a842093e219b5b308d16100ffc990baaee7148b6b42eb0cd49a8b3e5eb6f": {
+   "input_tokens": 150,
+   "output_tokens": 25,
+   "text": "Hello, I am writing about two orders, 1470 and 2930. Could you tell me where each one is right now?"
+  },
+  "04c444a4d40ce2de7026730a1a27656c1feda37aa0e37c0d8d8ad64baf140971": {
+   "input_tokens": 146,
+   "output_tokens": 19,
+   "text": "Bonjour, l'article de la commande 4345 est arrivé cassé. Que dois-je faire ?"
+  },
+  "051c8757e173a552c44dc1f531827b99b0a0f7855431a6b5ab5580b0127ceee0": {
+   "input_tokens": 149,
+   "output_tokens": 19,
+   "text": "The zipper on my backpack broke after a year. Do you repair them for a fee?"
+  },
+  "07c3d954b3b32b8a6ed78fc96a2c97dc4f65f8f24d3d2bc61f651a9c9cb73206": {
+   "input_tokens": 146,
+   "output_tokens": 16,
+   "text": "Hola, el artículo del pedido 4548 llegó roto. ¿Qué puedo hacer?"
+  },
+  "0c8a5dea151f95712a073068de4c30e6b6fd38227e7ecd9f2f9cf26778cbd005": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "I was charged twice for order 5538 and the parcel is late as well. Fix this now."
+  },
+  "108f2f1ecb2ba2eb04491ddadb2e467350b799ee533624fb71b032debca18c0f": {
+   "input_tokens": 153,
+   "output_tokens": 16,
+   "text": "I need to cancel the thing I bought last night before it ships."
+  },
+  "10feec3db2d416770a0754d93d47988d343c47b24e2aded58cf0f630a2d972ee": {
+   "input_tokens": 147,
+   "output_tokens": 21,
+   "text": "Hallo, können Sie mir den Sendungslink für die Bestellung 4374 noch einmal schicken?"
+  },
+  "144519d0f9f419574b5718f48249e30d05638dec06f5143571792f26daebb577": {
+   "input_tokens": 148,
+   "output_tokens": 30,
+   "text": "The scarf was a gift for my sister and I do not want her to see what it cost. Is there a receipt that hides the price?"
+  },
+  "14c101c0d20fd3cc3300f522f85039fb827cc9d5c4fd5b8cc1203e09509da58c": {
+   "input_tokens": 153,
+   "output_tokens": 24,
+   "text": "A friend gave me one of your lamps as a birthday present. Can the warranty be moved to my name?"
+  },
+  "1646d9a93b7dbc48545b829b6299b5e69dab9cb08b3411de907bed09b9d906a9": {
+   "input_tokens": 144,
+   "output_tokens": 21,
+   "text": "Do you sell wholesale to shops, and if so who do I talk to about setting that up?"
+  },
+  "16eb7a97e120b456434e29afceb571e01d921cae6066afcc92278575dcaa7682": {
+   "input_tokens": 151,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 3089 and 1581, and I need to know how I can get a return label for each."
+  },
+  "171d7b7bf1d186de7e50c83115f437978789a80169331fbe79a03ee51c8dd54f": {
+   "input_tokens": 149,
+   "output_tokens": 37,
+   "text": "Order 3346 was a bundle of three items and one of them is faulty. Can I get money back for just that one? Please let me know what my options are."
+  },
+  "174c5d05a98807f6f6d4d32a8afbfef99ff956d24f7664ab89bedae96aa0df30": {
+   "input_tokens": 145,
+   "output_tokens": 14,
+   "text": "Hola, ¿dónde está mi pedido 4200? Todavía no ha llegado."
+  },
+  "17cede880cfb2421d070913bbd3641f857c8f7475e8c8b6cd2bada21470a5ab5": {
+   "input_tokens": 150,
+   "output_tokens": 27,
+   "text": "Hello, I am writing about two orders, 1618 and 3142. Could you tell me how to cancel both before they ship?"
+  },
+  "180eceb062000efa1181874508c8425cba745854a54290b0bfbb16b2baefb0cd": {
+   "input_tokens": 150,
+   "output_tokens": 27,
+   "text": "Hello, I am writing about two orders, 1248 and 2612. Could you tell me how to cancel both before they ship?"
+  },
+  "198a1d65b836b6d84a3bc9ab9bfe48e6fa9145dfbd2ea5eb96ec9236c73c8cca": {
+   "input_tokens": 153,
+   "output_tokens": 17,
+   "text": "Please stop my most recent order, I do not have the order number."
+  },
+  "1b4e0e5b84640e80aee29c5be2831ad16a216cb14b76454c5a759c515603bc9e": {
+   "input_tokens": 149,
+   "output_tokens": 15,
+   "text": "Hi there, Where is my order 1748 right now? Thanks. Thanks!"
+  },
+  "1e373996956a18b21e602584efdb6029ae31294d8fbedf3051b5ea7957d06d32": {
+   "input_tokens": 144,
+   "output_tokens": 27,
+   "text": "I run a small gift shop and would like to buy your products at wholesale prices. How do I open an account?"
+  },
+  "1e64a892821d6603a6ea063f8d2682fba8eaa0efe219c2c67ba09312ff79b1af": {
+   "input_tokens": 151,
+   "output_tokens": 48,
+   "text": "I got order 3510 about 45 days ago and only now noticed the stitching is coming apart. I know the return window is shorter, can I still send it back? Please let me know what my options are."
+  },
+  "1eccf7bf275fb694b3c3de90d03490dad945e6dca3baa890da022b4b8f8ac447": {
+   "input_tokens": 153,
+   "output_tokens": 30,
+   "text": "I paid with my friend's card but I would like the refund to go to my own account. Is that possible? I kept the receipt."
+  },
+  "1ed4da298131e9e68b95dd53ed000ba9282dcf3ac1e8d7c7030dd6fef0c12450": {
+   "input_tokens": 147,
+   "output_tokens": 19,
+   "text": "Hola, ¿pueden enviarme otra vez el enlace de seguimiento del pedido 4780?"
+  },
+  "1fe9ef48ccaeefd45277f332c2144c0f9845f77027f1e652f0162b7fa4790f38": {
+   "input_tokens": 146,
+   "output_tokens": 13,
+   "text": "Olá, onde está o meu pedido 4403? Ainda não chegou."
+  },
+  "2274576ede9e72d6f45c1ef1c4658ffefd26b96fc029b739ed0c80d74edbc178": {
+   "input_tokens": 157,
+   "output_tokens": 26,
+   "text": "This is unacceptable. The item in order 5453 arrived broken and nobody answered my first email about it."
+  },
+  "2e46cfad11f45a78799a095f7e687a53b9eaa53c63279146d7cf02df3bcd2f16": {
+   "input_tokens": 155,
+   "output_tokens": 26,
+   "text": "I opened a hygiene product and it does not suit my skin. Can it still be returned, and is there a fee?"
+  },
+  "2e57a8c43f6243ce2997942530860e0c5d0d557f8ae2d2b8d24c35b653795836": {
+   "input_tokens": 147,
+   "output_tokens": 27,
+   "text": "Hallo, wann kommt die Rückerstattung für meine Bestellung 4838? Ich habe sie letzte Woche zurückgeschickt."
+  },
+  "2ec96ee635187ad73089547c1379869a2340855610a3a3d2aefd452a96efd2e4": {
+   "input_tokens": 149,
+   "output_tokens": 20,
+   "text": "Hello, can you tell me where my most recent order is? I lost the confirmation."
+  },
+  "2ef7f91929f31f409f846ccb61e54b68b3d32455160c67d305c0dcbedc9c99b6": {
+   "input_tokens": 151,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 3354 and 1766, and I need to know how I can get a return label for each."
+  },
+  "2f4b8f4839e3d63fba371d7279d3c622914cb1f9bcf63decd4bd039376c6f73f": {
+   "input_tokens": 147,
+   "output_tokens": 18,
+   "text": "My son is allergic to nuts. Does the vanilla candle contain any nut oil?"
+  },
+  "32bd946bb3d9893806c5193715048e42b45d120554be4c127a4fef843418cd69": {
+   "input_tokens": 146,
+   "output_tokens": 18,
+   "text": "Hola, mi pedido 4316 llega tarde y no tengo noticias. ¿Qué ha pasado?"
+  },
+  "3328b42df5cba88d9e138072f68c8ea538c0a42fe054930b5e3ac89a46c1473c": {
+   "input_tokens": 147,
+   "output_tokens": 19,
+   "text": "Olá, o meu pedido 4519 está atrasado e não tenho notícias. O que aconteceu?"
+  },
+  "3ccbfda72a8521c850211f9ff21119ba1334e5bc63838bdbaaa9c3a9a0cab5c1": {
+   "input_tokens": 157,
+   "output_tokens": 26,
+   "text": "This is unacceptable. The item in order 5351 arrived broken and nobody answered my first email about it."
+  },
+  "3dfc31ed676ae67afc26ea8af6397a6dd2a48fe3a9f43e343c69276d56d67ab1": {
+   "input_tokens": 153,
+   "output_tokens": 24,
+   "text": "I noticed that you have placed more than one order. Could you please confirm which one you mean?"
+  },
+  "425ccfa48b6e12d3b628704657f8ba0e0d33e3073be8322d15dbc238a31c7846": {
+   "input_tokens": 153,
+   "output_tokens": 24,
+   "text": "We need the invoice to show our registered company name instead of my own. Can it be reissued?"
+  },
+  "4530fbef1879f98762f9665967ab9532fce086713b5c13fee95615da4b20a08a": {
+   "input_tokens": 155,
+   "output_tokens": 36,
+   "text": "The jacket in order 4084 was on sale 20 days after I bought it at full price. Can I get the difference back? I would appreciate a quick answer."
+  },
+  "4532ca979bf451dcbb8abec9a41f29d12bac53dc4bb099b5fe388fdc14398f07": {
+   "input_tokens": 157,
+   "output_tokens": 26,
+   "text": "This is unacceptable. The item in order 5300 arrived broken and nobody answered my first email about it."
+  },
+  "457ec1d52f2e834ddf3a1eb8d0eb3bab3dd50a99119e26542ee8ec1dece709a7": {
+   "input_tokens": 155,
+   "output_tokens": 24,
+   "text": "I am furious. An item is missing from order 5470 and the tracking page told me it was complete."
+  },
+  "468da25732315ece7b06bce87c4d388fa7a5f6ab3937e916a909e7234125c5a1": {
+   "input_tokens": 151,
+   "output_tokens": 48,
+   "text": "I got order 3920 about 45 days ago and only now noticed the stitching is coming apart. I know the return window is shorter, can I still send it back? Please let me know what my options are."
+  },
+  "490398ce9c40560b166bc6e5dd114064fd3c6d0103a2ea7c280bf4fc25f320c6": {
+   "input_tokens": 148,
+   "output_tokens": 18,
+   "text": "Olá, quando chega o reembolso do meu pedido 4635? Devolvi há uma semana."
+  },
+  "4c6bcc9012cb5aa28e6d7d3df3f0486727a2d714c5f29c6792bf692f7bea5c52": {
+   "input_tokens": 148,
+   "output_tokens": 16,
+   "text": "Is the baby gate I bought last spring part of any safety recall?"
+  },
+  "4f75d838a7f03aecdf74f5719274c23a5f8b34d31184270138dfde9d0f9a739e": {
+   "input_tokens": 155,
+   "output_tokens": 33,
+   "text": "The jacket in order 3469 was on sale 20 days after I bought it at full price. Can I get the difference back? Thanks for your help."
+  },
+  "50351a882905053aeee55bb55c0a039296f20c03ea06398304db68bea079129a": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "I was charged twice for order 5487 and the parcel is late as well. Fix this now."
+  },
+  "5343ec6ef3754b5db9b4b6d79d2b8cd9338ca06c79ee2bd3bae427ffca2fe324": {
+   "input_tokens": 155,
+   "output_tokens": 24,
+   "text": "I am furious. An item is missing from order 5419 and the tracking page told me it was complete."
+  },
+  "5bdacb214ccb59b9d28f5c83ab953cb106d80d404e50b4d7ae21b71bf9c31cb4": {
+   "input_tokens": 149,
+   "output_tokens": 35,
+   "text": "Order 3551 was a bundle of three items and one of them is faulty. Can I get money back for just that one? I would appreciate a quick answer."
+  },
+  "5c11efb6836e135eb33fe80f275153d75226a12cfb22f457c1f84489a8d99b97": {
+   "input_tokens": 148,
+   "output_tokens": 28,
+   "text": "I bought a present from your shop and the slip in the box shows the price. Can I get a gift receipt without it?"
+  },
+  "60b4f3772a4915c3d283a45e39dc06be1c1dae2608629ccfa34527daf5dd4cda": {
+   "input_tokens": 155,
+   "output_tokens": 24,
+   "text": "I am furious. An item is missing from order 5317 and the tracking page told me it was complete."
+  },
+  "621aab2d5dfed10dd1a51eb2a1210d905b9639436c8c8ea36a923c3a262dd969": {
+   "input_tokens": 151,
+   "output_tokens": 21,
+   "text": "Do you offer packaging that can be opened without scissors? My hands are arthritic."
+  },
+  "642fd98256669ab731b6372bd108984fbabc79e49996b1067ec75ebc843f037a": {
+   "input_tokens": 151,
+   "output_tokens": 25,
+   "text": "Good afternoon. I have two open orders, 2771 and 1359, and I need to know why both of them are late."
+  },
+  "678a115afe0481bebbe749cda3522295034efbd5b224679445550d46c229512a": {
+   "input_tokens": 153,
+   "output_tokens": 35,
+   "text": "I paid with my friend's card but I would like the refund to go to my own account. Is that possible? Please let me know what my options are."
+  },
+  "69b3ab6a23ff8c345eaf2be8374eb48f0c539e3edc3bce690a18f07bd593bce6": {
+   "input_tokens": 147,
+   "output_tokens": 23,
+   "text": "Before I buy the lavender soap, I need to know if it is made with almond or other nut oils."
+  },
+  "6b12b272bba4656a65555e13a038caf5b81ac617a2556dd49fe55311afdedf5e": {
+   "input_tokens": 145,
+   "output_tokens": 18,
+   "text": "Hola, quiero cancelar mi pedido 4664 antes de que lo envíen, por favor."
+  },
+  "6b961b3a7d705e3dffb9dff441c5ccaa515a9cf834e0c0f0a7134e87b4a24d1f": {
+   "input_tokens": 149,
+   "output_tokens": 18,
+   "text": "Hello, I ordered a lamp recently and have heard nothing. Where is it?"
+  },
+  "6fc048ed548d8b5f92eb9af3a2fa291d313a7ace4d342c9827518a68d5fe8f73": {
+   "input_tokens": 148,
+   "output_tokens": 20,
+   "text": "I heard some heaters were recalled. How can I check whether mine is one of them?"
+  },
+  "71df1c160af4b3870460854f2136fb32ee17d4efb7e96aa66b7d4947fe9a836d": {
+   "input_tokens": 155,
+   "output_tokens": 27,
+   "text": "The jacket in order 3264 was on sale 20 days after I bought it at full price. Can I get the difference back?"
+  },
+  "73a3ff6b042f15264c75dfabddcd5cf0debe5a0038b9279025bdcce1512df383": {
+   "input_tokens": 151,
+   "output_tokens": 24,
+   "text": "Is the packaging of the water bottle easy to open? I have weak hands and cannot cut thick tape."
+  },
+  "749261551bb7a7e6d10b9918f21689ede27e8df2f57af0cdbbdc8c90aeab9dd5": {
+   "input_tokens": 149,
+   "output_tokens": 25,
+   "text": "Hi, I am waiting for a parcel from your shop and the tracking email got deleted. Where is it now?"
+  },
+  "77897e719db036a5912595cfbd2cce8dffa4cc248b74cd63ea35f7a1931cf34d": {
+   "input_tokens": 150,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 3248 and 1692, and I need to know when the refunds for both will arrive."
+  },
+  "780f859e8eeb558176a9079c542e38f8d56eb37c3edaf46b9ef57b0a517507b5": {
+   "input_tokens": 151,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 2559 and 1211, and I need to know how I can get a return label for each."
+  },
+  "79974ad7dfbf142a8367ea4940bb90c1fb70e3222dd3f3c5640e41ae8ba29f71": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "I was charged twice for order 5385 and the parcel is late as well. Fix this now."
+  },
+  "7f7c5b5f3a976cf5ea3c53c2fcf7af498685888a06e46b1ff5c2595cc534f120": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "I was charged twice for order 5436 and the parcel is late as well. Fix this now."
+  },
+  "7f8487761c52675a621974be6727976d9ab8fc2c9acaff9710bed2962f234c5a": {
+   "input_tokens": 151,
+   "output_tokens": 43,
+   "text": "I got order 3305 about 45 days ago and only now noticed the stitching is coming apart. I know the return window is shorter, can I still send it back? Thanks for your help."
+  },
+  "80ce371d57f6758e3b66be9388746b588b1c764a1b67309166b577fbbf655b69": {
+   "input_tokens": 155,
+   "output_tokens": 33,
+   "text": "The jacket in order 3879 was on sale 20 days after I bought it at full price. Can I get the difference back? Thanks for your help."
+  },
+  "82787e24ce3796375e0f7fd235fee19f827e8f2bfac9c5e9eb1aad73bf6e398a": {
+   "input_tokens": 153,
+   "output_tokens": 22,
+   "text": "My delivery should have been here days ago, and I do not have the order number at hand."
+  },
+  "84b394520b4860a3a9be6d02a466c74ca0ce9c06aa347f9637b0a222cc95636d": {
+   "input_tokens": 147,
+   "output_tokens": 13,
+   "text": "Olá, como posso devolver o pedido 4287? Não serviu."
+  },
+  "8b266072bc39e081c7a1d8240bc0f18fc4f498ac79ddfe67e75e9bb9ed5fd03a": {
+   "input_tokens": 145,
+   "output_tokens": 17,
+   "text": "Bonjour, où est ma commande 4809 ? Elle n'est toujours pas arrivée."
+  },
+  "8bc2f350883b1f159f617b71e4e30634662ad2ed6a7fb8cd591f88c16fa0f9ac": {
+   "input_tokens": 157,
+   "output_tokens": 24,
+   "text": "I noticed that you have placed more than one order. Could you please confirm which one you mean?"
+  },
+  "8d34d573d355d12a06fc90fd94697c22b065b1c305682ad081b09c9b58b9d329": {
+   "input_tokens": 150,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 2877 and 1433, and I need to know how to cancel both before they ship."
+  },
+  "8d64db98fdfbcfd76813055ee1ebdfdd88bd1e375c2371b098e80cface9b3ec1": {
+   "input_tokens": 155,
+   "output_tokens": 24,
+   "text": "I am furious. An item is missing from order 5521 and the tracking page told me it was complete."
+  },
+  "91e38f2b8bcc22caf0435adb03fe47082e59bdeb07a059b6ceef6be5f0999558": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "My recent order is overdue. Please check it for me, I do not have the number."
+  },
+  "924dc8785d699ff89176f161a15996af265bc46602d723137d9f0022e1cfe249": {
+   "input_tokens": 155,
+   "output_tokens": 37,
+   "text": "The jacket in order 3674 was on sale 20 days after I bought it at full price. Can I get the difference back? Please let me know what my options are."
+  },
+  "93dd3cc3c13902974bc0957476991eb04d10e390cc284216549c403a3ac8f9e3": {
+   "input_tokens": 146,
+   "output_tokens": 15,
+   "text": "Hola, ¿cómo puedo devolver el pedido 4896? No me queda bien."
+  },
+  "992da6dcc3ea932443195e131618afbf8c185db2fb4fafe509faab9bc9fafb97": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "The parcel I expected this week is not here and I cannot find any number for it."
+  },
+  "9e58cefa88ff73ddb93fd689b82b1f1462271e57f8779565eb5db751b60ddcdf": {
+   "input_tokens": 147,
+   "output_tokens": 27,
+   "text": "Bonjour, quand le remboursement de ma commande 4229 va-t-il arriver ? Je l'ai renvoyée la semaine dernière."
+  },
+  "a1c338965999d5a44a1932e54463fd42b9747fc25d0f52ca8672b776fbb7f613": {
+   "input_tokens": 149,
+   "output_tokens": 21,
+   "text": "Hi, where is the thing I bought last week? I cannot find the email with the number."
+  },
+  "a81dee64d7a7d6334eec1ac33bcecaac22db3e193edb63fde8c3cf1e8ad405d7": {
+   "input_tokens": 150,
+   "output_tokens": 24,
+   "text": "I noticed that you have placed more than one order. Could you please confirm which one you mean?"
+  },
+  "a953b7ccbbe124e149c5d6313f9a7fc4467fa302c700da835c71711dbe0d7ee5": {
+   "input_tokens": 155,
+   "output_tokens": 35,
+   "text": "I opened a hygiene product and it does not suit my skin. Can it still be returned, and is there a fee? I would appreciate a quick answer."
+  },
+  "a9572fbfa27c0c734cb6ad6026c899136cac1abf14ad007c41eb477ca4a46cf3": {
+   "input_tokens": 157,
+   "output_tokens": 26,
+   "text": "This is unacceptable. The item in order 5402 arrived broken and nobody answered my first email about it."
+  },
+  "ad296581336a19d922ac8179198feb5d8474ef8f1abc40e225d373eeaca07f60": {
+   "input_tokens": 155,
+   "output_tokens": 26,
+   "text": "I opened a hygiene product and it does not suit my skin. Can it still be returned, and is there a fee?"
+  },
+  "b16b2a87e1666f970d3299709b11306425eeab514aef0cec15e778a581a2b0e8": {
+   "input_tokens": 145,
+   "output_tokens": 20,
+   "text": "Hallo, ich möchte meine Bestellung 4258 stornieren, bevor sie versendet wird."
+  },
+  "b7486e17b7bef66b84e6317f6013efedd8f7469e66985128e0989cd73d8414a0": {
+   "input_tokens": 146,
+   "output_tokens": 18,
+   "text": "Bonjour, comment puis-je retourner la commande 4693 ? Elle ne me va pas."
+  },
+  "b758a8fe0947e374bb97967c2b39e9ba75f8cc35623d8c7f0e524cce21509ea2": {
+   "input_tokens": 153,
+   "output_tokens": 26,
+   "text": "My brother gave me his kettle as a gift and it still has warranty left. Can I take over the warranty?"
+  },
+  "b9e6bab448e527d3fafc6b94d92771ac69d9a297fbe9eddf89c20969f8a32eb6": {
+   "input_tokens": 147,
+   "output_tokens": 16,
+   "text": "Olá, o artigo do pedido 4751 chegou partido. O que posso fazer?"
+  },
+  "baa79f4e0a4451e00c1f78100e934c40ac88929661e13edb7c9a30890c8e51ec": {
+   "input_tokens": 150,
+   "output_tokens": 22,
+   "text": "Can you ask the carrier to leave my parcel with the front desk at my workplace instead?"
+  },
+  "bf646583a2322baf85e3bcde9bdf07f671070f44f92a6250e5c068ed9e104202": {
+   "input_tokens": 149,
+   "output_tokens": 20,
+   "text": "Do you offer a repair service for broken zips, or do I have to go to a tailor?"
+  },
+  "bf6f650aa4714bf694039058617d20985ea9753129820bea43743ee39493db0f": {
+   "input_tokens": 146,
+   "output_tokens": 23,
+   "text": "Hallo, meine Bestellung 4722 ist verspätet und ich habe keine Nachricht. Was ist passiert?"
+  },
+  "bfff41f5007f140389d6f25aabef9965bdf4d4ad81bbec215d664b1eab4531f3": {
+   "input_tokens": 151,
+   "output_tokens": 46,
+   "text": "I got order 3715 about 45 days ago and only now noticed the stitching is coming apart. I know the return window is shorter, can I still send it back? I would appreciate a quick answer."
+  },
+  "c0febefd1e8d832bdedb1aa4be62c37c256bcf072a319191cf66fb1dedaf6ea6": {
+   "input_tokens": 155,
+   "output_tokens": 24,
+   "text": "I am furious. An item is missing from order 5368 and the tracking page told me it was complete."
+  },
+  "c143c2f28ed095b7e7a584bc2628c947a00da57b4c634912a4e8d39efd166a2c": {
+   "input_tokens": 153,
+   "output_tokens": 25,
+   "text": "I paid with my friend's card but I would like the refund to go to my own account. Is that possible?"
+  },
+  "c38c35723ff78cb63287c55c6c27a83e2af9d941c2f1b16572122d5fc9487496": {
+   "input_tokens": 151,
+   "output_tokens": 25,
+   "text": "Hello, I am writing about two orders, 1174 and 2506. Could you tell me why both of them are late?"
+  },
+  "c53689edaca0c012cba025de42b8eba28e86506f33b281899e32250cf65c0902": {
+   "input_tokens": 145,
+   "output_tokens": 21,
+   "text": "Bonjour, je voudrais annuler ma commande 4461 avant l'expédition, s'il vous plaît."
+  },
+  "c75c772fcf3f58e002e59b14674a2f012fb8c2f1a2bd7813b3bc45e4f9f59dad": {
+   "input_tokens": 151,
+   "output_tokens": 24,
+   "text": "I noticed that you have placed more than one order. Could you please confirm which one you mean?"
+  },
+  "c76e301ba9af995f5fe34eaaff3c57af7e1d2d0bfdf9d8b574aadd03247b1851": {
+   "input_tokens": 146,
+   "output_tokens": 16,
+   "text": "Olá, quero cancelar o meu pedido 4867 antes do envio, por favor."
+  },
+  "c7f8a177f84aa4ad2b33cb0c12439ecc16d38064efd90c91cbc4db9a403b48fe": {
+   "input_tokens": 153,
+   "output_tokens": 28,
+   "text": "My company name was spelled wrong on the invoice you sent. Can you issue a corrected one with the right name?"
+  },
+  "c809e926d2840897cf7d0802192b00eaaa16d3590c4400b29e1a54146fb65f5f": {
+   "input_tokens": 153,
+   "output_tokens": 22,
+   "text": "Please cancel my latest order, I ordered by mistake and cannot find the confirmation."
+  },
+  "c865a637ef94f5beb30485b7b0cdc5182401ac247f82853a6cb5bbfdb10a8b84": {
+   "input_tokens": 149,
+   "output_tokens": 37,
+   "text": "Order 3961 was a bundle of three items and one of them is faulty. Can I get money back for just that one? Please let me know what my options are."
+  },
+  "c9165e6d741b4e1d36d60bc20c7c727bb15ac2c37a3dac72585412186511594c": {
+   "input_tokens": 146,
+   "output_tokens": 19,
+   "text": "Hallo, wie kann ich die Bestellung 4490 zurückgeben? Sie passt mir nicht."
+  },
+  "cb98be3fcde326015081bee58d46b315f5a6310eecbb12d054b035396a111f09": {
+   "input_tokens": 153,
+   "output_tokens": 20,
+   "text": "I was charged twice for order 5334 and the parcel is late as well. Fix this now."
+  },
+  "cfae11475d3b7347c461795734e294fea65f08222583800ec1312071d318fc81": {
+   "input_tokens": 147,
+   "output_tokens": 24,
+   "text": "I noticed that you have placed more than one order. Could you please confirm which one you mean?"
+  },
+  "d1f7c14a0f5904870fa7ae37480ddddeb08b4ddd9b1df0200c5aedfea16e986a": {
+   "input_tokens": 155,
+   "output_tokens": 31,
+   "text": "I opened a hygiene product and it does not suit my skin. Can it still be returned, and is there a fee? Thanks for your help."
+  },
+  "d3bcc626288f6e2036dc7237438c274242a7464b501ad800a8600fbccde64804": {
+   "input_tokens": 151,
+   "output_tokens": 38,
+   "text": "I got order 3100 about 45 days ago and only now noticed the stitching is coming apart. I know the return window is shorter, can I still send it back?"
+  },
+  "d3f8f8182dce244a3dcd089a860f9ffa5d71c0f4259c5fcb126dc73f5a282f4f": {
+   "input_tokens": 153,
+   "output_tokens": 35,
+   "text": "I paid with my friend's card but I would like the refund to go to my own account. Is that possible? Please let me know what my options are."
+  },
+  "d5d9afe00cc193d1b13932e6557cb9f2f965960d6545fa2c7002aa09d05b5f61": {
+   "input_tokens": 150,
+   "output_tokens": 28,
+   "text": "Hello, I am writing about two orders, 1322 and 2718. Could you tell me when the refunds for both will arrive?"
+  },
+  "d66124699687b7ffd58808bb52b167761ec64efff3c82ec81a8bfa7ed1ebc5bc": {
+   "input_tokens": 153,
+   "output_tokens": 19,
+   "text": "Still nothing from my last purchase, it is well past the date you gave me."
+  },
+  "d70943458ad220e96b682d8cfa7ed5e02c3fb4f3d41282d2d9c62e824ae11c61": {
+   "input_tokens": 149,
+   "output_tokens": 23,
+   "text": "Hey, my last order has not shown up and I do not know the order number. Can you look it up?"
+  },
+  "d9f58ddbe1bfc2cde72b84eee314032e27b525300ae47874c0c3c942881055f0": {
+   "input_tokens": 147,
+   "output_tokens": 20,
+   "text": "Can my monthly box skip the next two months without cancelling the subscription?"
+  },
+  "df41850909eafa1d078b53cfc02729dcf9b178d94d23329ea2d4d3b58def04f3": {
+   "input_tokens": 151,
+   "output_tokens": 25,
+   "text": "Hello, I am writing about two orders, 1544 and 3036. Could you tell me why both of them are late?"
+  },
+  "dfb4cb8fcc58106c63f69187ba4c00ccad1084aeab6a1aeb73a3e48d76956123": {
+   "input_tokens": 150,
+   "output_tokens": 26,
+   "text": "Good afternoon. I have two open orders, 2665 and 1285, and I need to know where each one is right now."
+  },
+  "e2396ef2ff253448ce9bd5672b95335c17d018b1a691dff946dad114af4350b6": {
+   "input_tokens": 150,
+   "output_tokens": 25,
+   "text": "Hello, I am writing about two orders, 1100 and 2400. Could you tell me where each one is right now?"
+  },
+  "e32d0ba5d1eae4431cd27a6248f44985f9936fdaa1cf8530e23ea08aed76f508": {
+   "input_tokens": 151,
+   "output_tokens": 28,
+   "text": "Hello, I am writing about two orders, 1396 and 2824. Could you tell me how I can get a return label for each?"
+  },
+  "e4fa7887b0ab60b8aef0ce1b7afb2ad3bb00bf45ed0fc844058ff57b0c5d7510": {
+   "input_tokens": 147,
+   "output_tokens": 18,
+   "text": "Bonjour, pouvez-vous me renvoyer le lien de suivi de la commande 4577 ?"
+  },
+  "ea35a8637ba869459376b32c559044f9744f7705c4cea1fe3e86f8c7319d539c": {
+   "input_tokens": 153,
+   "output_tokens": 19,
+   "text": "The package I am waiting for is late and I have no idea what the number was."
+  },
+  "ecece50b020abc80fbc5922a3bdf0238a86708d80facb454d067dcc3746e46dd": {
+   "input_tokens": 145,
+   "output_tokens": 17,
+   "text": "Hallo, wo ist meine Bestellung 4606? Sie ist noch nicht angekommen."
+  },
+  "ed19e3253565e716dbea86b50406b1ffd073e4dfd939c637976ccfb1704f36b9": {
+   "input_tokens": 149,
+   "output_tokens": 32,
+   "text": "Order 3756 was a bundle of three items and one of them is faulty. Can I get money back for just that one? I kept the receipt."
+  },
+  "efcae2feb216bc4ec1dbbb44718ac38c616f0fd46a3f157875211a75d6a0bf49": {
+   "input_tokens": 150,
+   "output_tokens": 28,
+   "text": "The carrier tried to deliver to my house while I was at work. Can it be sent to the reception desk of my office?"
+  },
+  "f0661e459869220684cfe7f7e061a147732d3d8c2f3f897446f8f6c77408a483": {
+   "input_tokens": 150,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 2983 and 1507, and I need to know when the refunds for both will arrive."
+  },
+  "f23d7a38527919ce7fa3a9a6329eb2b8f6c0960420c0f7414b8ed922851647cb": {
+   "input_tokens": 153,
+   "output_tokens": 34,
+   "text": "I paid with my friend's card but I would like the refund to go to my own account. Is that possible? I would appreciate a quick answer."
+  },
+  "f445b8d02c533c94ee7174653876ebf12c276cc7ea5472f32097d43ba7c02e3a": {
+   "input_tokens": 153,
+   "output_tokens": 23,
+   "text": "I want to cancel what I bought yesterday, I do not have the number but it was a backpack."
+  },
+  "f73ef90477c75034e1eadc4413892235e6946a4bf96b6eb5f212219d5234d8db": {
+   "input_tokens": 150,
+   "output_tokens": 26,
+   "text": "Good afternoon. I have two open orders, 3195 and 1655, and I need to know where each one is right now."
+  },
+  "f841cbe61c4ead785c2da6c728e21a41df500650e7a241a7fbe11f9491dddee5": {
+   "input_tokens": 150,
+   "output_tokens": 28,
+   "text": "Good afternoon. I have two open orders, 3407 and 1803, and I need to know how to cancel both before they ship."
+  },
+  "ff4b7df47f115f64de59708aa34ce6ca34b9a7fe51ef4f9b7eb791b2bf40a55b": {
+   "input_tokens": 155,
+   "output_tokens": 31,
+   "text": "I opened a hygiene product and it does not suit my skin. Can it still be returned, and is there a fee? I kept the receipt."
+  }
+ },
+ "model": "authored-sample-v1",
+ "provenance": "authored by scripts/author_synthetic_cassette.py from templates; not a model recording. Token counts are estimates (characters / 4). Replace with `make record-synthetic`."
+}
