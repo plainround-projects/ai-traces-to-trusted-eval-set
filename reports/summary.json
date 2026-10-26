@@ -1,0 +1,145 @@
+{
+  "agreement": {
+    "cases": 300,
+    "confusions": [
+      [
+        [
+          "correct",
+          "partly_correct"
+        ],
+        38
+      ],
+      [
+        [
+          "correct",
+          "wrong"
+        ],
+        17
+      ],
+      [
+        [
+          "partly_correct",
+          "wrong"
+        ],
+        15
+      ],
+      [
+        [
+          "should_have_refused",
+          "wrong"
+        ],
+        5
+      ]
+    ],
+    "disagreements": 75,
+    "guide_changed": true,
+    "kappa": 0.5835184362505552,
+    "label_share": {
+      "correct": 0.5683333333333334,
+      "partly_correct": 0.20166666666666666,
+      "should_have_refused": 0.045,
+      "wrong": 0.185
+    },
+    "labelers": [
+      "simulated-annotator-a",
+      "simulated-annotator-b"
+    ],
+    "per_label_kappa": {
+      "correct": 0.6263925369078888,
+      "partly_correct": 0.45134575569358176,
+      "should_have_refused": 0.8062015503875962,
+      "wrong": 0.5913709321160361
+    },
+    "raw": 0.75
+  },
+  "cases_real": 300,
+  "cases_synthetic": 100,
+  "compare": {
+    "mix_distance": 0.7533333333333333,
+    "non_english": 0.2,
+    "real_n": 300,
+    "real_pass": 0.6433333333333333,
+    "real_vocabulary": 544,
+    "real_words": 16.203333333333333,
+    "synthetic_n": 100,
+    "synthetic_pass": 0.22,
+    "synthetic_vocabulary": 522,
+    "synthetic_words": 19.26,
+    "vocabulary_overlap": 0.17271727172717272
+  },
+  "contamination": {
+    "checked_files": 2,
+    "overlaps": 0,
+    "texts": 6
+  },
+  "dedup": {
+    "exact_dropped": 50,
+    "kept": 849,
+    "near_dropped": 101,
+    "precision": 0.5495495495495496,
+    "recall": 0.7625,
+    "same_numbers": true,
+    "size": 2,
+    "threshold": 0.7
+  },
+  "loaded": 1000,
+  "raw_lines": 1010,
+  "rejected": 10,
+  "sample": {
+    "pool": 849,
+    "size": 300,
+    "strata": 163
+  },
+  "sample_pool": 849,
+  "scrub": {
+    "catch_rate": 0.9810606060606061,
+    "caught": 259,
+    "leaks": 5,
+    "misses": 5,
+    "naive_caught": 235,
+    "planted": 264,
+    "unplanted": 0,
+    "version": "1.1.0"
+  },
+  "seed": 2610,
+  "synthetic": {
+    "accepted": 100,
+    "agreement": {
+      "cases": 100,
+      "disagreements": 21,
+      "kappa": 0.5428820200261212,
+      "label_share": {
+        "correct": 0.215,
+        "partly_correct": 0.07,
+        "should_have_refused": 0.015,
+        "wrong": 0.7
+      },
+      "labelers": [
+        "simulated-annotator-a",
+        "simulated-annotator-b"
+      ],
+      "per_label_kappa": {
+        "correct": 0.6745562130177515,
+        "partly_correct": 0.08396946564885503,
+        "should_have_refused": -0.013513513513515794,
+        "wrong": 0.6192289386006663
+      },
+      "raw": 0.79
+    },
+    "by_rule": {
+      "near_duplicate": 6,
+      "voice": 5
+    },
+    "calls": 111,
+    "input_tokens": 16715,
+    "model": "authored-sample-v1",
+    "output_tokens": 2730,
+    "rejected": 11
+  },
+  "versions": {
+    "dedupe": "1.2.0",
+    "guide": "v2",
+    "pipeline": "1.0.0",
+    "scrubber": "1.1.0"
+  }
+}

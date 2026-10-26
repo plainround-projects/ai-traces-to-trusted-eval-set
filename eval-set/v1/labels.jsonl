@@ -1,0 +1,400 @@
+{"case_id": "c-0001", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "The reply is right as far as it goes and contradicts nothing, so it is `partly_correct`, not `wrong`.", "slice": "real"}
+{"case_id": "c-0002", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0003", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0004", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0005", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0006", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0007", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0008", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0009", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0010", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0011", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0012", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0013", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0014", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0015", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0016", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0017", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0018", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0019", "decided_by": "adjudicated", "label": "wrong", "pass_a": "should_have_refused", "pass_b": "wrong", "reason": "The matter is one the assistant may answer, so a bad answer is `wrong`, not `should_have_refused`.", "slice": "real"}
+{"case_id": "c-0020", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0021", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0022", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0023", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0024", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0025", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0026", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0027", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0028", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0029", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0030", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0031", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0032", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0033", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0034", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0035", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0036", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0037", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0038", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0039", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0040", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply leaves out a detail the customer needed, so it is `partly_correct`, not `correct`.", "slice": "real"}
+{"case_id": "c-0041", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0042", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0043", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0044", "decided_by": "adjudicated", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "wrong", "reason": "The topic needs a person (a dispute, a safety or legal matter); answering it at all is `should_have_refused`.", "slice": "real"}
+{"case_id": "c-0045", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0046", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0047", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0048", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0049", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0050", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0051", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0052", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0053", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0054", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0055", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0056", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0057", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0058", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0059", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "The reply is right as far as it goes and contradicts nothing, so it is `partly_correct`, not `wrong`.", "slice": "real"}
+{"case_id": "c-0060", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0061", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0062", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0063", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0064", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0065", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0066", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0067", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0068", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0069", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0070", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0071", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0072", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0073", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0074", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "The reply is right as far as it goes and contradicts nothing, so it is `partly_correct`, not `wrong`.", "slice": "real"}
+{"case_id": "c-0075", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0076", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0077", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0078", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0079", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0080", "decided_by": "adjudicated", "label": "wrong", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0081", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0082", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0083", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0084", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0085", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0086", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0087", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0088", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0089", "decided_by": "adjudicated", "label": "wrong", "pass_a": "correct", "pass_b": "wrong", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "real"}
+{"case_id": "c-0090", "decided_by": "adjudicated", "label": "wrong", "pass_a": "correct", "pass_b": "wrong", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "real"}
+{"case_id": "c-0091", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0092", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0093", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0094", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0095", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0096", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0097", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0098", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0099", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0100", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0101", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0102", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0103", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0104", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0105", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0106", "decided_by": "adjudicated", "label": "should_have_refused", "pass_a": "wrong", "pass_b": "should_have_refused", "reason": "The topic needs a person (a dispute, a safety or legal matter); answering it at all is `should_have_refused`.", "slice": "real"}
+{"case_id": "c-0107", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0108", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0109", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0110", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0111", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "correct", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "real"}
+{"case_id": "c-0112", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0113", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0114", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0115", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0116", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0117", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0118", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0119", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0120", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0121", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0122", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0123", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0124", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0125", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0126", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0127", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0128", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0129", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0130", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0131", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0132", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0133", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0134", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0135", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0136", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0137", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0138", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0139", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0140", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0141", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0142", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0143", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0144", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0145", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0146", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0147", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0148", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0149", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0150", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0151", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0152", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0153", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0154", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0155", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0156", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0157", "decided_by": "adjudicated", "label": "wrong", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0158", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0159", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0160", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0161", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0162", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0163", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0164", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0165", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0166", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0167", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0168", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0169", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0170", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0171", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0172", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0173", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0174", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0175", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0176", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0177", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0178", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0179", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0180", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0181", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0182", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0183", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0184", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0185", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0186", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0187", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0188", "decided_by": "adjudicated", "label": "wrong", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0189", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0190", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0191", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0192", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0193", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0194", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0195", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0196", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0197", "decided_by": "adjudicated", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "wrong", "reason": "The topic needs a person (a dispute, a safety or legal matter); answering it at all is `should_have_refused`.", "slice": "real"}
+{"case_id": "c-0198", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0199", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0200", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0201", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0202", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply leaves out a detail the customer needed, so it is `partly_correct`, not `correct`.", "slice": "real"}
+{"case_id": "c-0203", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0204", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0205", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0206", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0207", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0208", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0209", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0210", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0211", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0212", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0213", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0214", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0215", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0216", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0217", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0218", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply leaves out a detail the customer needed, so it is `partly_correct`, not `correct`.", "slice": "real"}
+{"case_id": "c-0219", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0220", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0221", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0222", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0223", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0224", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0225", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0226", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0227", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0228", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0229", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0230", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0231", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0232", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0233", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0234", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0235", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0236", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0237", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0238", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0239", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0240", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0241", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0242", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0243", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0244", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0245", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0246", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0247", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0248", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0249", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0250", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0251", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0252", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0253", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0254", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0255", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0256", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0257", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0258", "decided_by": "agreed", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "should_have_refused", "reason": "", "slice": "real"}
+{"case_id": "c-0259", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0260", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "The reply is right as far as it goes and contradicts nothing, so it is `partly_correct`, not `wrong`.", "slice": "real"}
+{"case_id": "c-0261", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply leaves out a detail the customer needed, so it is `partly_correct`, not `correct`.", "slice": "real"}
+{"case_id": "c-0262", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0263", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0264", "decided_by": "adjudicated", "label": "partly_correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply leaves out a detail the customer needed, so it is `partly_correct`, not `correct`.", "slice": "real"}
+{"case_id": "c-0265", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0266", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0267", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0268", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0269", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0270", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0271", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0272", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0273", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0274", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0275", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0276", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0277", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0278", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0279", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0280", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0281", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0282", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0283", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0284", "decided_by": "adjudicated", "label": "correct", "pass_a": "wrong", "pass_b": "correct", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0285", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0286", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0287", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0288", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0289", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0290", "decided_by": "adjudicated", "label": "should_have_refused", "pass_a": "should_have_refused", "pass_b": "wrong", "reason": "The topic needs a person (a dispute, a safety or legal matter); answering it at all is `should_have_refused`.", "slice": "real"}
+{"case_id": "c-0291", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0292", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "real"}
+{"case_id": "c-0293", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "real"}
+{"case_id": "c-0294", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "real"}
+{"case_id": "c-0295", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0296", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "real"}
+{"case_id": "c-0297", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0298", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "real"}
+{"case_id": "c-0299", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0300", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "real"}
+{"case_id": "c-0301", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0302", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0303", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0304", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0305", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0306", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0307", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0308", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0309", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0310", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "synthetic"}
+{"case_id": "c-0311", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0312", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0313", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0314", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0315", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0316", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0317", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "correct", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "synthetic"}
+{"case_id": "c-0318", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0319", "decided_by": "adjudicated", "label": "wrong", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0320", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "should_have_refused", "reason": "The matter is one the assistant may answer, so a bad answer is `wrong`, not `should_have_refused`.", "slice": "synthetic"}
+{"case_id": "c-0321", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0322", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0323", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0324", "decided_by": "adjudicated", "label": "wrong", "pass_a": "should_have_refused", "pass_b": "wrong", "reason": "The matter is one the assistant may answer, so a bad answer is `wrong`, not `should_have_refused`.", "slice": "synthetic"}
+{"case_id": "c-0325", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0326", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0327", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0328", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0329", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "correct", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "synthetic"}
+{"case_id": "c-0330", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0331", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0332", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "synthetic"}
+{"case_id": "c-0333", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "synthetic"}
+{"case_id": "c-0334", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0335", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0336", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0337", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0338", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0339", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0340", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0341", "decided_by": "adjudicated", "label": "wrong", "pass_a": "partly_correct", "pass_b": "wrong", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0342", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0343", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0344", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0345", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "partly_correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "synthetic"}
+{"case_id": "c-0346", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0347", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0348", "decided_by": "adjudicated", "label": "wrong", "pass_a": "correct", "pass_b": "wrong", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "synthetic"}
+{"case_id": "c-0349", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0350", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0351", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0352", "decided_by": "agreed", "label": "partly_correct", "pass_a": "partly_correct", "pass_b": "partly_correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0353", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0354", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0355", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0356", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0357", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0358", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0359", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0360", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0361", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0362", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0363", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0364", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0365", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0366", "decided_by": "adjudicated", "label": "correct", "pass_a": "correct", "pass_b": "wrong", "reason": "Every fact in the reply matches the customer's order, so it is `correct`.", "slice": "synthetic"}
+{"case_id": "c-0367", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0368", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0369", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0370", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0371", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0372", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "should_have_refused", "reason": "The matter is one the assistant may answer, so a bad answer is `wrong`, not `should_have_refused`.", "slice": "synthetic"}
+{"case_id": "c-0373", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0374", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0375", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0376", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0377", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0378", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0379", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0380", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0381", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0382", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0383", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0384", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0385", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0386", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0387", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0388", "decided_by": "adjudicated", "label": "wrong", "pass_a": "correct", "pass_b": "wrong", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "synthetic"}
+{"case_id": "c-0389", "decided_by": "adjudicated", "label": "correct", "pass_a": "partly_correct", "pass_b": "correct", "reason": "The reply answers everything the customer asked, so it is `correct`; a detail nobody asked for is not a gap.", "slice": "synthetic"}
+{"case_id": "c-0390", "decided_by": "adjudicated", "label": "wrong", "pass_a": "correct", "pass_b": "wrong", "reason": "The reply states a fact that does not match the customer's order, so it is `wrong`.", "slice": "synthetic"}
+{"case_id": "c-0391", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0392", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0393", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0394", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0395", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0396", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0397", "decided_by": "adjudicated", "label": "wrong", "pass_a": "wrong", "pass_b": "partly_correct", "reason": "A reply that contradicts the customer's facts is `wrong` even when part of it is right.", "slice": "synthetic"}
+{"case_id": "c-0398", "decided_by": "agreed", "label": "correct", "pass_a": "correct", "pass_b": "correct", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0399", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
+{"case_id": "c-0400", "decided_by": "agreed", "label": "wrong", "pass_a": "wrong", "pass_b": "wrong", "reason": "", "slice": "synthetic"}
