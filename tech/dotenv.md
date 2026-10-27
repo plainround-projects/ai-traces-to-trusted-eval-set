@@ -155,6 +155,38 @@ export
 - `-include .env`: Read the file `.env` and treat each `NAME=value` line as a make variable. The leading `-` means: do not fail if the file does not exist.
 - `export`: Pass every make variable to the commands that make runs, as environment variables. This is how settings in `.env` reach the Python programs.
 
+
+<!-- extras -->
+### `.env.example`, every line
+
+This file is a template. `make` copies it to `.env` the first time, and the program reads `.env` for its settings. A line `NAME=value` sets one environment variable; a line starting with `#` is a comment. Nothing secret is stored in the template: the line for the API key is empty on purpose.
+
+```dotenv
+# Copy to .env (make up does it). Nothing here is a secret.
+LOG_LEVEL=INFO
+# recorded replays tests/fixtures/cassettes; claude calls the real API and needs ANTHROPIC_API_KEY
+MODEL_ADAPTER=recorded
+MODEL_ID=claude-sonnet-5-5
+# simulated stands in for two annotators; model asks MODEL_ID to label
+LABELER=simulated
+# Only for MODEL_ADAPTER=claude and make test-live. Never commit a real key.
+ANTHROPIC_API_KEY=
+SEED=2610
+SAMPLE_SIZE=300
+SYNTHETIC_TARGET=100
+```
+
+- `LOG_LEVEL=INFO`: sets the environment variable `LOG_LEVEL` to the value `INFO`. The comment above it says: *Copy to .env (make up does it). Nothing here is a secret.*
+- `MODEL_ADAPTER=recorded`: sets the environment variable `MODEL_ADAPTER` to the value `recorded`. The comment above it says: *recorded replays tests/fixtures/cassettes; claude calls the real API and needs ANTHROPIC_API_KEY*
+- `MODEL_ID=claude-sonnet-5-5`: sets the environment variable `MODEL_ID` to the value `claude-sonnet-5-5`.
+- `LABELER=simulated`: sets the environment variable `LABELER` to the value `simulated`. The comment above it says: *simulated stands in for two annotators; model asks MODEL_ID to label*
+- `ANTHROPIC_API_KEY=`: sets the environment variable `ANTHROPIC_API_KEY` to an empty value (nothing is set). The comment above it says: *Only for MODEL_ADAPTER=claude and make test-live. Never commit a real key.*
+- `SEED=2610`: sets the environment variable `SEED` to the value `2610`.
+- `SAMPLE_SIZE=300`: sets the environment variable `SAMPLE_SIZE` to the value `300`.
+- `SYNTHETIC_TARGET=100`: sets the environment variable `SYNTHETIC_TARGET` to the value `100`.
+
+<!-- /extras -->
+
 ## Try it yourself
 
 Run these from the repository folder (after `make up`).
