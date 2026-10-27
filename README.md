@@ -2,6 +2,8 @@
 
 A pipeline that turns 1,000 raw support-assistant traces into eval set v1: scrubbed of personal data, deduplicated, twice labeled with a measured kappa, topped up with 100 filtered synthetic hard cases, and frozen with file hashes and lineage back to every trace id. Every stage is measured against an answer key the generator wrote when it planted the problems.
 
+Never used these tools before? [tech/README.md](tech/README.md) teaches each technology in this repository from zero, through its own files, with a ten-minute shortlist.
+
 | | |
 | --- | --- |
 | **Lesson** | `/prep/ai/project-traces-to-trusted-eval-set`, "From traces to a trusted eval set" (`data-structure-explainer/src/content/tracks/ai/108-project-traces-to-trusted-eval-set.md` in the Plainround app) |
