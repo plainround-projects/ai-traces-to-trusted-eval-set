@@ -11,6 +11,24 @@ Never used these tools before? [tech/README.md](tech/README.md) teaches each tec
 | **Level** | Intermediate |
 | **Architecture** | [ARCHITECTURE.md](ARCHITECTURE.md), decisions: [docs/adr](docs/adr) |
 
+## Architecture
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/architecture-dark.svg">
+  <img alt="In the Python package eval_set_builder, generate plants problems in the raw traces and writes the answer key; load, scrub and dedup run in order, then sample and label with two annotators, synthesize 100 cases through the TextModel port, compare, contamination and freeze into eval-set/v1." src="docs/diagrams/architecture.svg">
+</picture>
+
+Look at data/raw: the answer key written with the traces is what lets every stage report a measured number, and the frozen set keeps lineage back to trace ids.
+
+## How one run flows
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/flow-dark.svg">
+  <img alt="A make run goes from 1,010 raw lines to a frozen eval set, with a measured result at each stage; the amber row is the scrub trap, where a greedy pattern catches 89.0% instead of 98.1%." src="docs/diagrams/flow.svg">
+</picture>
+
+The run ends in 0 contamination overlaps and 5 file hashes that a rebuild reproduces.
+
 ## Prerequisites
 
 | Tool | Version | Used for |

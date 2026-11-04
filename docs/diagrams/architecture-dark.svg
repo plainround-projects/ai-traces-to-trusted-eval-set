@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+<title id="t">Architecture of ai-traces-to-trusted-eval-set: staged pipeline with an answer key</title>
+<desc id="d">Inside the Python package eval_set_builder, the generate stage writes the raw traces and the answer key to data/raw. The pipeline stages run in order: load reads the raw file and rejects bad lines, scrub removes personal data, dedup removes exact and near duplicates, and then two branches start from dedup. The sample stage draws 300 traces and writes guide v1, and label runs two passes through the Annotators port, simulated or a model, with kappa 0.584. The synthesize stage asks the TextModel port, recorded or Claude, for 100 accepted cases and labels them the same way. compare sets the real slice against the synthetic one, contamination checks few-shot and fine-tuning text with 0 overlaps, and freeze writes eval-set/v1 with cases, labels, hashes and lineage. In amber, a note says the greedy scrub pattern catches 89.0 percent against 98.1 percent for the fixed one.</desc>
+<style>
+:root{--paper:#0d1117;--ink:#f5f4f8;--mute:#9a96ab;--accent:#6ec8ff;--good:#7ce0a1;--warn:#ffd166}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:var(--ink)}
+.title{font-family:Georgia,'Iowan Old Style','Times New Roman',serif;font-size:36px}
+.caption{font-size:16px;fill:var(--mute)}
+.name{font-size:20px;font-weight:600}
+.lane{font-size:17px;font-weight:600}
+.sub{font-size:15px;fill:var(--mute)}
+.label{font-size:15px}
+.tag{font-size:15px;fill:var(--mute)}
+.num{font-size:15px;font-weight:700;fill:var(--paper)}
+.legend{font-size:14px;fill:var(--mute)}
+.t-accent{fill:var(--accent)}
+.t-good{fill:var(--good)}
+.t-warn{fill:var(--warn)}
+.t-ink{fill:var(--ink)}
+.b{font-weight:600}
+.paper{fill:var(--paper);stroke:var(--mute);stroke-opacity:.3}
+.grid{fill:url(#grid)}
+.boundary{fill:var(--mute);fill-opacity:.035;stroke:var(--mute);stroke-opacity:.7;stroke-dasharray:6 5}
+.svc{fill:var(--accent);fill-opacity:.08;stroke:var(--accent);stroke-width:1.25}
+.store{fill:var(--mute);fill-opacity:.1;stroke:var(--mute);stroke-width:1.25}
+.rim{fill:none;stroke:var(--mute);stroke-width:1.25}
+.actor{fill:none;stroke:var(--mute);stroke-width:1.25}
+.slot{fill:var(--accent);fill-opacity:.14;stroke:var(--accent);stroke-width:1}
+.note{fill:var(--warn);fill-opacity:.09;stroke:var(--warn);stroke-width:1}
+.win{fill:var(--good);fill-opacity:.09;stroke:var(--good);stroke-width:1}
+.hair{fill:none;stroke:var(--mute);stroke-opacity:.4;stroke-width:1}
+.zone{fill:var(--accent);fill-opacity:.045;stroke:var(--accent);stroke-width:1.25;stroke-dasharray:6 5}
+.stop{fill:none;stroke:var(--warn);stroke-width:4;stroke-linecap:round}
+.mask{fill:var(--paper)}
+.sync,.async,.read,.fail,.ok{fill:none}
+.sync{stroke:var(--accent);stroke-width:1.75;marker-end:url(#a-sync)}
+.async{stroke:var(--accent);stroke-width:1.75;stroke-dasharray:8 6;marker-end:url(#a-async)}
+.read{stroke:var(--mute);stroke-width:1.75;stroke-linecap:round;stroke-dasharray:1 6;marker-end:url(#a-read)}
+.fail{stroke:var(--warn);stroke-width:2;marker-end:url(#a-fail)}
+.ok{stroke:var(--good);stroke-width:1.75;marker-end:url(#a-ok)}
+.dot{fill:var(--accent)}
+.dot-w{fill:var(--warn)}
+.dot-g{fill:var(--good)}
+.head-sync,.head-async{stroke:var(--accent)}
+.head-sync{fill:var(--accent)}
+.head-async,.head-read{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.head-read{stroke:var(--mute)}
+.head-fail{fill:var(--warn)}
+.head-ok{fill:var(--good)}
+.gridline{fill:none;stroke:var(--mute);stroke-opacity:.09}
+</style>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path class="gridline" d="M40 0H0V40"/></pattern>
+<marker id="a-sync" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path class="head-sync" d="M0 0L10 5L0 10z"/></marker>
+<marker id="a-async" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path class="head-async" d="M1 1L9 5L1 9"/></marker>
+<marker id="a-read" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path class="head-read" d="M1 1L9 5L1 9"/></marker>
+<marker id="a-fail" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path class="head-fail" d="M0 0L10 5L0 10z"/></marker>
+<marker id="a-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path class="head-ok" d="M0 0L10 5L0 10z"/></marker>
+</defs>
+<rect class="paper" x="0.5" y="0.5" width="1199" height="679" rx="16"/>
+<rect class="grid" x="1" y="1" width="1198" height="678" rx="16"/>
+<text class="title" x="48" y="68">Eight stages, each measured against a key</text>
+<text class="caption" x="48" y="100">The generator plants the problems and writes the answer key, so every stage has a number to hit.</text>
+
+<rect class="boundary" x="48" y="132" width="1104" height="468" rx="14"/>
+<text class="tag" x="64" y="160">Python package eval_set_builder, files in a Workspace</text>
+
+<rect class="svc" x="72" y="176" width="176" height="84" rx="12"/>
+<text class="name" x="88" y="208">generate</text>
+<text class="sub" x="88" y="232">seeded, plants</text>
+<text class="sub" x="88" y="254">the problems</text>
+<rect class="svc" x="288" y="176" width="176" height="84" rx="12"/>
+<text class="name" x="304" y="208">load</text>
+<text class="sub" x="304" y="232">Load and reject</text>
+<rect class="svc" x="504" y="176" width="176" height="84" rx="12"/>
+<text class="name" x="520" y="208">scrub</text>
+<text class="sub" x="520" y="232">Scrub personal</text>
+<text class="sub" x="520" y="254">data</text>
+<rect class="svc" x="720" y="176" width="176" height="84" rx="12"/>
+<text class="name" x="736" y="208">dedup</text>
+<text class="sub" x="736" y="232">Deduplicate</text>
+<rect class="svc" x="936" y="176" width="176" height="84" rx="12"/>
+<text class="name" x="952" y="208">sample</text>
+<text class="sub" x="952" y="232">sample-and-guide</text>
+<text class="sub" x="952" y="254">300, guide v1</text>
+
+<path class="store" d="M72 312a88 12 0 0 1 176 0v102a88 12 0 0 1 -176 0z"/>
+<path class="rim" d="M72 312a88 12 0 0 0 176 0"/>
+<text class="name" x="160" y="352" text-anchor="middle">data/raw</text>
+<text class="sub" x="160" y="374" text-anchor="middle">traces.jsonl</text>
+<text class="sub" x="160" y="396" text-anchor="middle">answer_key.json</text>
+<rect class="note" x="288" y="312" width="176" height="116" rx="10"/>
+<text class="label b t-warn" x="304" y="338">the scrub trap</text>
+<text class="sub" x="304" y="362">greedy pattern</text>
+<text class="sub" x="304" y="384">catches 89.0%</text>
+<text class="sub" x="304" y="406">fixed: 98.1%</text>
+<rect class="svc" x="504" y="312" width="176" height="84" rx="12"/>
+<text class="name" x="520" y="344">TextModel</text>
+<text class="sub" x="520" y="368">port: recorded</text>
+<text class="sub" x="520" y="390">or Claude</text>
+<rect class="svc" x="720" y="312" width="176" height="84" rx="12"/>
+<text class="name" x="736" y="344">synthesize</text>
+<text class="sub" x="736" y="368">Synthetic cases</text>
+<text class="sub" x="736" y="390">100 accepted</text>
+<rect class="svc" x="936" y="312" width="176" height="84" rx="12"/>
+<text class="name" x="952" y="344">label</text>
+<text class="sub" x="952" y="368">Label twice</text>
+<text class="sub" x="952" y="390">kappa 0.584</text>
+
+<path class="store" d="M72 448a88 12 0 0 1 176 0v102a88 12 0 0 1 -176 0z"/>
+<path class="rim" d="M72 448a88 12 0 0 0 176 0"/>
+<text class="name" x="160" y="488" text-anchor="middle">eval-set/v1</text>
+<text class="sub" x="160" y="510" text-anchor="middle">cases, labels</text>
+<text class="sub" x="160" y="532" text-anchor="middle">hashes, lineage</text>
+<rect class="svc" x="288" y="448" width="176" height="84" rx="12"/>
+<text class="name" x="304" y="480">freeze</text>
+<text class="sub" x="304" y="504">manifest, hashes</text>
+<rect class="svc" x="504" y="448" width="176" height="84" rx="12"/>
+<text class="name" x="520" y="480">contamination</text>
+<text class="sub" x="520" y="504">0 overlaps</text>
+<rect class="svc" x="720" y="448" width="176" height="84" rx="12"/>
+<text class="name" x="736" y="480">compare</text>
+<text class="sub" x="736" y="504">real vs synthetic</text>
+<rect class="svc" x="936" y="448" width="176" height="84" rx="12"/>
+<text class="name" x="952" y="480">Annotators</text>
+<text class="sub" x="952" y="504">port: simulated</text>
+<text class="sub" x="952" y="526">or a model</text>
+
+<path class="sync" d="M248 218H288"/>
+<path class="sync" d="M464 218H504"/>
+<path class="sync" d="M680 218H720"/>
+<path class="sync" d="M896 218H936"/>
+<path class="sync" d="M160 260V312"/>
+<path class="read" d="M248 350H256Q268 350 268 338V252Q268 240 280 240H288"/>
+<path class="sync" d="M808 260V312"/>
+<path class="sync" d="M1024 260V312"/>
+<path class="sync" d="M720 354H680"/>
+<path class="sync" d="M1024 396V448"/>
+<path class="sync" d="M808 396V448"/>
+<path class="sync" d="M936 380H928Q916 380 916 392V478Q916 490 904 490H896"/>
+<path class="sync" d="M720 490H680"/>
+<path class="sync" d="M504 490H464"/>
+<path class="sync" d="M288 490H248"/>
+
+<path class="sync" d="M48 636H112"/><text class="legend" x="124" y="641">sync call</text>
+<path class="read" d="M520 636H584"/><text class="legend" x="596" y="641">read</text>
+</svg>
