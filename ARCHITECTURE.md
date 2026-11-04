@@ -38,13 +38,13 @@ flowchart LR
     label --> guide2["Guide v2"]
     dedup --> synth["Synthetic cases<br/>100, filtered"]
     model{{"Text model<br/>recorded or Claude"}} --> synth
-    synth --> label
-    label --> freeze["Eval set v1<br/>hashes, lineage"]
+    label --> check["Contamination check<br/>fewshot, finetune"]
+    synth --> check
+    check --> freeze["Eval set v1<br/>hashes, lineage"]
     key -. measures .-> load
     key -. measures .-> scrub
     key -. measures .-> dedup
     key -. simulated annotators .-> label
-    freeze --> check["Contamination check<br/>fewshot, finetune"]
 ```
 
 ### One run, step by step (`make run`)
@@ -54,7 +54,7 @@ flowchart LR
 3. `dedup` drops traces whose normalized message hashes equal an earlier trace's, sweeps the near-duplicate settings (shingle size, threshold, digit guard) against the planted pairs, picks the best F1 and drops near-duplicates, keeping the earliest trace and writing the absorber of each drop to `work/dropped.jsonl`.
 4. `sample-and-guide` draws 300 traces round-robin over the (intent, feedback) cells and writes guide v1 with one example and one counter-example per label taken from the sample.
 5. `label` runs two independent passes, computes raw agreement, kappa (overall and per label) and the confusion matrix, sends each disagreement to the adjudicator for a final label and a reason, and writes guide v2 with the three most frequent confusions as rules.
-6. `synthesize` renders `prompts/synthesize.v1.md` and each seed's instruction, calls the model, applies the filters, records every rejection with its rule, stops at 100 accepted cases, attaches the current assistant's reply and the rubric's label, and labels the slice the same way.
+6. `synthesize` renders `prompts/synthesize.v1.md` and each seed's instruction, calls the model, applies the filters, records every rejection with its rule, stops at 100 accepted cases, attaches the current assistant's reply and the rubric's label, and labels the slice the same way (it reads `work/deduped.jsonl`, not the label stage's output, and runs after `label`).
 7. `compare` measures message length, vocabulary overlap, intent mix and pass rate for the two slices.
 8. `contamination` checks every eval message against `fewshot/` and `finetune/`; `freeze` writes `eval-set/v1/` with canonical JSON, hashes every file and records lineage.
 
